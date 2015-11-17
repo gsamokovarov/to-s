@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'to/s/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "to-s"
-  spec.version       = To::S::VERSION
+  spec.version       = '0.1.0'
   spec.authors       = ["Genadi Samokovarov"]
   spec.email         = ["gsamokovarov@gmail.com"]
   spec.summary       = "Write to_s fast."
