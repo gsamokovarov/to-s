@@ -1,11 +1,13 @@
-Have you ever tried to type `to_s` fast on a new keyboard?
+Have you ever tried to type `to_s` fast?
 
 ```ruby
-# Before
 >> buffer << input.to-s
 NoMethodError: undefined method `to' for #<Object:0x007f92c5059650>
+```
 
-# After
+Bummer, right? 
+
+```
 require 'to/s'
 
 buffer << input.to-s
